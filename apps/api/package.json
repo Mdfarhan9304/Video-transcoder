@@ -9,6 +9,8 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
+    "@repo/queue": "*",
+    "express": "^5.1.0",
     "multer": "^2.1.1",
     "tsx": "^4.21.0"
   },
