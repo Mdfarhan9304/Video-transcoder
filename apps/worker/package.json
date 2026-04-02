@@ -1,0 +1,14 @@
+{
+    "name": "@repo/worker",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true,
+    "scripts": {
+      "dev": "tsx watch src/index.ts",
+      "build": "tsc -p tsconfig.json",
+      "start": "node dist/index.js"
+    },
+    "dependencies": {
+      "tsx": "^4.21.0"
+    }
+  }
